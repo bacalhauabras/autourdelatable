@@ -35,7 +35,7 @@ public class ARTapToPlaceObject : MonoBehaviour
         placementIndicator.SetActive(false);
     }
 
-    private void PlaceObject()
+    public void PlaceObject()
     {
         if (currentObject)
             Destroy(currentObject);
